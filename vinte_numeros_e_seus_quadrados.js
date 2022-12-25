@@ -36,8 +36,8 @@ for (let numero = 1; numero <= 20; numero++) {
     }
 }
 //imprimindo na tela soma dos quadrados pares
-console.log('A soma dos números pares é: ', somaPar);
+console.log('A soma dos quadrados pares é: ', somaPar);
 //imprimindo na tela soma dos quadrado impares
-console.log('A soma dos números impares é: ', somaImpar);
+console.log('A soma dos quadrados impares é: ', somaImpar);
 //imprimindo na tela a soma geral dos quadrados
 console.log('A soma geral dos quadrados é: ', somaGeral);
