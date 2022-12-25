@@ -15,6 +15,7 @@
 //criando variavel para somar numeros pares e impares
 let somaPar = 0;
 let somaImpar = 0;
+let somaGeral = 0;
 
 //implementando laço através do FOR
 for (let numero = 1; numero <= 20; numero++) {
@@ -30,8 +31,13 @@ for (let numero = 1; numero <= 20; numero++) {
         //variavel que guarda soma dos quadrados impares
         somaImpar += quadrado;
     }
+    if (quadrado = numero ** 2) {
+        somaGeral += quadrado;
+    }
 }
 //imprimindo na tela soma dos quadrados pares
 console.log('A soma dos números pares é: ', somaPar);
 //imprimindo na tela soma dos quadrado impares
 console.log('A soma dos números impares é: ', somaImpar);
+//imprimindo na tela a soma geral dos quadrados
+console.log('A soma geral dos quadrados é: ', somaGeral);
